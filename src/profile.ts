@@ -2,7 +2,7 @@ import path from "node:path";
 import os from "node:os";
 
 export const SERVER_NAME = "akms-mcp-s3";
-export const SERVER_VERSION = "0.2.1";
+export const SERVER_VERSION = "0.3.0";
 export type S3Env = Record<string, string | undefined>;
 export interface S3Profile {
     backend: "aws" | "compatible";
